@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: green;
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+    outline: none;
+    background-color: #fff;
+    border: 1px solid black;
+    /* font-size: 18px; */
+    font-weight: bold;
+}
+.cart-button button a {
+    color: #000;
+}
+
+.logo h2 a {
+    color: #fff;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.navbar h2{
+    color: #fff;
+}
+
+.products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0 10px;
+    margin-top: 60px;
+}
+.product{
+    border: 1px solid black;
+    padding: 10px;
+}
+.product-img{
+    width: 100%;
+    margin: 0 auto;
+}
+.product-img img{
+    height: 200px;
+    width: 100%;
+    margin: 0 auto;
+    object-fit: contain;
+    /* object-position: center bottom; */
+}
+
+.buttons{
+    text-align: right;
+}
+
+.buttons button{
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+.cart-button{
+    position: relative;
+}
+
+.cart-button button{
+    padding:10px 20px;
+}
+
+.total-products{
+    position: absolute;
+    right: 0;
+    top: -20px;
+    background-color: red;
+    color: #000;
+    padding: 2px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.product-details{
+    margin: 10px 0;
+}
+
+.increment{
+    background-color: green;
+}
+
+.decrement{
+    background-color: red;
+}
+
+.title{
+    text-transform: uppercase;
+    /* margin-top: 10px; */
+}
+
+.cartWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0;
+    /* justify-content: center; */
+}
+
+.cart{
+    width: 350px;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.cart-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.increment-decrement-total-btn{
+    text-align: left;
+    margin: 10px 0;
+}
+
+.del-btn{
+    color: red;
+    font-weight: bold;
+}
+
+.empty-cart{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.empty-cart h2{
+    font-size: 30px;
+}
+
+.empty-cart button{
+    padding: 8px 16px;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
+.cartTitleInfo{
+    margin: 10px 0;
+}
